@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escritório de Advocacia</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Advocacia Moderna</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Protegendo seus direitos com excelência</h1>
+            <p>Consultoria jurídica especializada para pessoas e empresas.</p>
+            <a href="#contato" class="btn">Entre em Contato</a>
+        </div>
+        <div class="hero-image">
+            <img src="advogacia.jpg" alt="Advocacia">
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Nosso escritório oferece atendimento personalizado e soluções jurídicas eficazes. Nossa equipe é formada por advogados experientes nas áreas civil, trabalhista e empresarial.</p>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="servicos">
+        <h2>Serviços</h2>
+        <div class="servicos-cards">
+            <div class="card">
+                <h3>Direito Civil</h3>
+                <p>Consultoria e atuação em questões familiares, contratos e indenizações.</p>
+            </div>
+            <div class="card">
+                <h3>Direito Trabalhista</h3>
+                <p>Defesa de trabalhadores e empresas em ações trabalhistas e negociações.</p>
+            </div>
+            <div class="card">
+                <h3>Direito Empresarial</h3>
+                <p>Assessoria jurídica para empresas, contratos e disputas comerciais.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <h2>Contato</h2>
+        <form id="form-contato">
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="email" placeholder="Seu Email" required>
+            <textarea placeholder="Sua Mensagem" rows="5" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Escritório de Advocacia Moderna. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
